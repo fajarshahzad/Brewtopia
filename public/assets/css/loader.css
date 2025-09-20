@@ -1,0 +1,34 @@
+/* Loader styles */
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.coffee-cup {
+  font-size: 4rem;
+  animation: bounce 1s infinite;
+  color: #6f4e37;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+.loader-text {
+  margin-top: 15px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  color: #6f4e37;
+}
+
+body.loaded #loader {
+  display: none;
+}

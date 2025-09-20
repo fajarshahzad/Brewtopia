@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin-top: 56px; /* Prevent navbar overlap */
+}
+
+/* Hero section with gradient instead of image */
+.hero-section {
+  background: url('../images/bg.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+.card img {
+  height: 400px;
+  object-fit: cover;
+}
+.btn-cafe {
+  background-color: #5c4033;   /* Dark Brown */
+  color: #f5f5dc;              /* Light Cream */
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-cafe:hover {
+  background-color: #8e735b;   /* Lighter hazel brown */
+  color: #fff;                 /* White on hover */
+}
+.about-video {
+  max-width: 400px;   /* set your desired size */
+  width: 100%;        /* responsive */
+  border-radius: 10px;
+}
+/* Custom brownish color for icons/buttons */
+.text-cafe {
+  color: #8b5e3c; /* hazel brown */
+}
+
+.btn-cafe {
+  background-color: #5c4033;
+  color: #f5f5dc;
+  border: none;
+}
+.btn-cafe:hover {
+  background-color: #8b5e3c;
+  color: #fff3e0;
+}
+
+/* Visit Us Section Styling */
+.visit-us-section {
+  background: #fdfaf6; /* soft cream background */
+}
+
+.visit-us-section .card {
+  border-radius: 12px;
+  background: #fff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.visit-us-section .card:hover {
+  transform: translateY(-5px);
+}
+/* Item image adjustment */
+.item-image {
+      max-width: 100%;
+      max-height: 350px;
+      object-fit: cover;
+      border-radius: 10px;
+      display: block;
+      margin: 0 auto;
+    }
+    /* Optional: reviews card spacing */
+.review-card {
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
